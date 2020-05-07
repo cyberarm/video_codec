@@ -6,7 +6,7 @@ end
 
 require_relative "lib/video_codec"
 
-class Window < CyberarmEngine::Engine
+class Window < CyberarmEngine::Window
   def setup
     self.show_cursor = true
     push_state(Player)
